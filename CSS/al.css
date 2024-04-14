@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    position:relative;
+    min-height :100vh;
+    padding:50px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background:url("https://www.google.fr/url?sa=i&url=https%3A%2F%2Fwww.mgc-prevention.fr%2Flalcool-les-fetes-moderation%2F&psig=AOvVaw2CTNCzpG_QLWFU2lljslwA&ust=1712847127108000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOiBhvXyt4UDFQAAAAAdAAAAABAq" ) center center no-repeat;
+    background-size:cover;
+
+}

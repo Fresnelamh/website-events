@@ -1,0 +1,80 @@
+/*.italic text {
+  font-style:italic
+}*/
+
+body{
+  background-image:url('http://www.fetardises.fr/wp-content/uploads/sites/9/2018/09/0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}/* linear-gradient(to bottom ,white,grey)
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .italic text {
+    font-style:italic
+  }
+  
+  
+  
+  .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .menu li {
+      margin-bottom: 10px; /* Ajoute de l'espace entre les éléments du menu */
+    
+    
+    .menu li:last-child {
+      margin-bottom: 0; /* Supprime le margin-bottom du dernier élément pour éviter un espace excessif */
+    }
+    
+    .menu li a {
+      display: block; /* Affiche les liens comme des blocs, les rendant verticaux */
+      text-decoration: none;
+      padding: 10px 20px; /* Ajoute de l'espace autour du texte du lien */
+      border: 1px solid #ccc; /* Ajoute une bordure autour des liens pour les distinguer */
+      border-radius: 5px; /* Arrondit les coins des liens */
+    }
+    
+    .menu li a:hover {
+      background-color: #f0f0f0; /* Change la couleur de fond au survol */
+    }
+    main p{
+      background-color: rgba(0, 0, 0, 0.592);
+    }.menu li {
+    margin-bottom: 10px; /* Ajoute de l'espace entre les éléments du menu */
+  }
+  
+  .menu li:last-child {
+    margin-bottom: 0; /* Supprime le margin-bottom du dernier élément pour éviter un espace excessif */
+  }
+ 
+  .menu li a {
+    display: block; /* Affiche les liens comme des blocs, les rendant verticaux */
+    text-decoration: none;
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte du lien */
+    border: 1px solid #ccc; /* Ajoute une bordure autour des liens pour les distinguer */
+    border-radius: 5px; /* Arrondit les coins des liens */
+  }
+  
+  .menu li a:hover {
+    background-color: #f0f0f0; /* Change la couleur de fond au survol */
+  }
+main p{
+  color: rgb(42, 130, 165);
+
+
+
+}
+ 
+ 
+footer {
+  background-color: white; /* Couleur de fond blanche */
+  color: black; /* Couleur du texte noire */
+}

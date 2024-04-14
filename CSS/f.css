@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style du conteneur du formulaire avec animation et fond */
+.formulaire-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 420px;
+    background: fixed;
+    border-radius: 8px;
+    overflow: hidden
+}
+/*.formulaire-container {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: fixed;
+    border-radius: 8px;
+    overflow: hidden;
+}*/
+
+.formulaire-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 5s linear infinite;
+}
+
+.formulaire-container::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 5s linear infinite;
+    animation-delay: -3s;
+}
+
+.borderLine {
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+.borderLine::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, transparent, darkred, darkred, darkred);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 5s linear infinite;
+    animation-delay: -1.5s;
+}
+
+.borderLine::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, transparent, darkred, darkred, darkred);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 5s linear infinite;
+    animation-delay: -4.5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Style des éléments du formulaire */
+.formulaire {
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background: #222;
+}
+
+.formulaire h2 {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.formulaire label {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.formulaire input,
+.formulaire select,
+.formulaire textarea {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-bottom 0.3s;
+}
+
+.formulaire input:focus,
+.formulaire select:focus,
+.formulaire textarea:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+.formulaire input[type="submit"],
+.formulaire input[type="reset"],
+.formulaire button[type="submit"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulaire input[type="submit"]:hover,
+.formulaire input[type="reset"]:hover,
+.formulaire button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .formulaire-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .formulaire {
+        padding: 30px;
+    }
+}

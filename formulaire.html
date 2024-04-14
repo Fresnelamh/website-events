@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <meta name="description" content="Première page">
+       <meta name="keywords" content="HTML, CSS">
+       <meta name="author" content="Fresnel">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaire </title>
+       <link rel="stylesheet" href="CSS/all.css">
+    
+    </head>
+    <body class="forming">
+        <header><h1>Nel Events<span>.</span></h1></header>
+        <nav>
+         
+           <ul>
+            <li><a href="Home.html">Acceuil</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="formulaire.html">Formulaire</a></li>
+            <li><a href="index.html">Tableau</a></li>
+            <li><a href="login.html">Se connecter</a></li>
+           </ul>
+        </nav>
+
+   
+        
+         <main class="formulaire">
+           
+              <form action="#" method="post">
+                   <h2>Inscription</h2>
+       
+                   <label for="nom">Nom :</label>
+                   <input type="text" id="nom" name="nom" required>
+       
+                   <label for="email">Email :</label>
+                   <input type="email" id="email" name="email" required>
+       
+                   <label for="password">Mot de passe :</label>
+                   <input type="password" id="password" name="password" required>
+       
+                   <label for="Age">Age :</label>
+                   <input type="number" id="quantity" name="quantity" min="18" required>
+       
+                   <label for="date">Date de l'évènement :</label>
+                   <input type="date" min="2024-03-23" required>
+       
+                   <label for="color">Couleur du thème :</label>
+                   <input type="color" required>
+       
+                   <label for="tel">Téléphone :</label>
+                   <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" required>
+       
+                   <label for="adresse">Adresse :</label>
+                   <input type="text" id="adresse" name="adresse" required>
+       
+                   <label for="ville">Ville :</label>
+                   <input type="text" id="ville" name="ville" required>
+       
+                   <label for="codepostal">Code postal :</label>
+                   <input type="text" id="codepostal" name="codepostal" pattern="[0-9]{5}" required>
+       
+                   <label for="gender">Genre :</label>
+                   <select id="gender" name="gender" required>
+                       <option value="homme">Homme</option>
+                       <option value="femme">Femme</option>
+                       <option value="autre">Autre</option>
+                   </select>
+       
+                   <label for="textarea">Description :</label>
+                   <textarea id="textarea" name="textarea" rows="12" cols="35" required></textarea>
+       
+                   <label for="file">Sélectionnez un fichier :</label>
+                   <input type="file" id="file" name="file" accept="image/*" required>
+       
+                   <label for="range">Échelle :</label>
+                   <input type="range" id="range" name="range" min="0" max="100" required>
+       
+                   <label for="checkbox">Option :</label>
+                   <input type="checkbox" id="checkbox" name="checkbox" required>
+       
+                   <label for="radio">Choix :</label>
+                   <input type="radio" id="radio" name="radio" value="choix1" required> Choix 1
+                   <input type="radio" id="radio" name="radio" value="choix2" required> Choix 2
+       
+                   <label for="time">Heure de rendez-vous :</label>
+                   <input type="time" id="appointment" name="appointment" required>
+       
+                   <label for="week">Semaine de l'événement :</label>
+                   <input type="week" id="eventweek" name="eventweek" required>
+       
+                   <label for="website">Site Web :</label>
+                   <input type="url" id="website" name="website" required>
+       
+                   <label for="search">Recherche :</label>
+                   <input type="search" id="search" name="search" required>
+       
+                   <input type="submit" value="Envoyer">
+                   <input type="reset" value="Effacer">
+               </form>
+          
+           </main>
+           <footer ></footer>
+    </body>
+</html>
+
+
+
+
+
+     

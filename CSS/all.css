@@ -1,0 +1,1150 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+.home {
+    min-height: 100vh;
+    background:url('https://img.freepik.com/premium-photo/cocktail-night-drink-beach_855607-389.jpg')center center no-repeat;
+    background-size: cover;
+    font-family: montserrat;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 100px 100px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    font-size: 1.5em;
+    user-select: none;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+
+
+
+header >h1 {
+    margin: 0; /* Supprimer la marge par défaut */
+    position: fixed; /* Garder le titre en position fixe */
+    top: 0; /* Aligner le titre en haut de la page */
+    left: 0; /* Aligner le titre à gauche de la page */
+    color: white; /* Couleur du texte */
+    padding-left: 20px;
+    padding-top:20px; /* Ajouter de l'espacement à gauche pour ne pas être trop à l'extrémité */
+    /* Vous pouvez ajuster la valeur de padding-left selon vos besoins */
+}
+
+header >h1>span {
+    color:rgb(255, 0, 0)
+}
+
+/* Styles pour les liens de navigation */
+/*nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffff;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+nav ul li a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* Styles pour la section héros */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    padding-left: 70px; /* Ajustez la valeur de la marge gauche */
+}
+
+/* Styles pour le titre dans la section héros */
+.hero-section h2 {
+    font-size: 2rem;
+    max-width: 600px;
+    line-height: 70px;
+}
+
+/* Styles pour le paragraphe dans la section héros */
+.hero-section p.mainly {
+    font-weight: 300;
+    max-width: 600px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+header h1  {
+    padding-left: 120px;
+   
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-decoration: none;
+}
+ /* header h1 span {
+    color: #c03e69;
+  }*/
+  
+.hero-section button {
+    width: 180px;
+    color:#000;
+    font-size:12px;
+    padding:12px 0;
+    background:#fff;
+    border:0;
+    border-radius:20px;
+    outline:none;
+    margin-top:30px;
+}
+
+.hero-section button:hover {
+    background: violet; /* Fond violet */
+    color: #fff; /* Texte blanc */
+}
+
+.logo {
+    width:70px;
+    height:70px;
+    cursor:pointer;
+    margin-left:80px;
+    position:fixed
+}
+/*main h5 .card {
+    width:200px;
+    height: 230px;
+    display:inline-block;
+    border-radius:10px;
+    padding:15px 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin-top:20px;
+    margin:10px 15px;
+    background:url(Images\4.png);
+    background-position: center;
+    background-size: cover;
+
+
+}*/
+body.home > footer {
+    position: fixed; /* Fixez le pied de page en bas de la fenêtre */
+    bottom: 0; /* Alignez-le en bas */
+    width: 100%; /* Occupant toute la largeur de la fenêtre */
+   
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Centre le contenu */
+    padding: 20px 0; /* Ajoute de l'espacement au-dessus et en dessous du texte */
+    z-index: 999; /* Assurez-vous que le pied de page est au-dessus du contenu */
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ body.glerie {
+    background: grey; /* Couleur de fond grise */
+    font-family: sans-serif; /* Définir une police de caractères par défaut */
+}
+
+.glerie main {
+    padding-top: 10%;
+    padding-bottom: 50px; /* Ajouter un espacement en bas pour ne pas cacher le contenu sous la barre de navigation */
+}
+
+main h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 200%;
+}
+
+main p {
+    font-size: 120%;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Modifié de space-between à space-around pour un meilleur espacement */
+    margin: 20px auto 0; /* Ajouter un espacement en haut pour séparer le texte de la galerie */
+    max-width: 1200px;
+}
+
+div.gallery figure {
+    width: calc(33.33% - 20px); /* Ajustement de la largeur pour les grands écrans avec un espacement entre les images */
+    margin-bottom: 20px; /* Espacement entre les lignes */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: wheat;
+    margin-right: 15px; /* Ajout d'un peu d'espacement à droite de chaque image */
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/*@media screen and (max-width: 768px) {
+    div.gallery figure {
+        width: calc(50% - 20px); 
+        margin-right: 10px; 
+    }
+}
+*/
+div.gallery figure:hover {
+    border: 1px solid #777;
+}
+
+ figcaption {
+    padding: 15px; /* Ajoute de l'espace à l'intérieur de la bordure autour de la légende de l'image */
+    text-align: center;
+    color: white; /* Couleur du texte blanc pour contraster */
+}
+
+
+
+
+
+
+
+body.forming{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-y: auto;
+  
+    background:  -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+    background-size: cover;
+
+  }
+
+  .forming main h2 {
+    text-align: center;
+  }
+.formulaire {
+    max-width: 50%;
+    background: #fff;
+    text-align: center;
+    border-radius:5px;
+    padding: 30 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+body.forming {
+    padding-top: 15%;
+}
+
+
+/*.container {
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px 35px; 
+  */
+
+.forming label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="color"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+input[type="file"],
+input[type="range"],
+input[type="checkbox"],
+input[type="radio"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #00b380;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button[type="submit"]:hover {
+    background-color:rgba(255, 0, 0, 0.764);
+}
+
+
+@media screen and (max-width: 768px) {
+    .formulaire {
+        padding: 10px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*@media print {
+ .table, .table__body {
+  overflow: visible;
+  height: auto !important;
+  width: auto !important;
+ }
+}*/
+
+/*@page {
+    size: landscape;
+    margin: 0; 
+}*/
+
+    body.tableit{
+    min-height: 100vh;
+    background: url('https://images-cdn.ubuy.co.in/635028a9a3f62670b3476f74-summer-tropical-tawaii-aloha-backdrop.jpg=') center center no-repeat;
+    background-position: cover;
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding-top: 20%;
+}
+
+
+main.table  {
+    width: 82vw;
+    height: 90vh;
+    background-color: #fff5;
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    position:relative;
+    overflow: hidden;
+    margin-bottom: 20%; /* Ajoute une marge en bas pour créer un espace */
+    /*padding-bottom: 20px; /* Ajoute un padding en bas pour plus d'espace si nécessaire */
+
+}
+
+.table__header {
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table__header .input-group {
+    width: 35%;
+    height: 100%;
+    background-color: #fff5;
+    
+    padding: 1.2rem 1rem 0.8rem;
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .2s;
+}
+
+.table__header .input-group:hover {
+    width: 45%;
+    background-color: #fff8;
+    box-shadow: 0 .1rem .4rem #0002;
+}
+
+.table__header .input-group img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.table__header .input-group input {
+    width: 100%;
+    padding: 0 .5rem 0 .3rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.table__body {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+    overflow: overlay;
+}
+
+
+.table__body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb{ 
+    visibility: visible;
+}
+
+
+table {
+    width: 100%;
+}
+
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
+tbody tr {
+    --delay: .1s;
+    transition: .5s ease-in-out var(--delay), background-color 0s;
+}
+
+tbody tr.hide {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+tbody tr:hover {
+    background-color: #fff6 !important;
+}
+
+tbody tr td,
+tbody tr td p,
+tbody tr td img {
+    transition: .2s ease-in-out;
+}
+
+tbody tr.hide td,
+tbody tr.hide td p {
+    padding: 0;
+    font: 0 / 0 sans-serif;
+    transition: .2s ease-in-out .5s;
+}
+
+tbody tr.hide td img {
+    width: 0;
+    height: 0;
+    transition: .2s ease-in-out .5s;
+}
+
+.sa {
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.Maximale {
+    background-color: #86e49d;
+    color: #006b21;
+}
+
+.Basse{
+    background-color: #d893a3;
+    color: #b30021;
+}
+
+.Moyenne{
+    background-color: #ebc474;
+    color:orange;
+    
+}
+
+
+
+/*@media (max-width: 1000px) {
+    td:not(:first-of-type) {
+        min-width: 12.1rem;
+    }
+}*/
+
+thead th span.icon-arrow {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 1.4px solid transparent;
+    
+    text-align: center;
+    font-size: 1rem;
+    
+    margin-left: .5rem;
+    transition: .2s ease-in-out;
+}
+
+thead th:hover span.icon-arrow{
+    border: 1.4px solid #6c00bd;
+}
+
+thead th:hover {
+    color: #6c00bd;
+}
+
+thead th.active span.icon-arrow{
+    background-color: #6c00bd;
+    color: #fff;
+}
+
+thead th.asc span.icon-arrow{
+    transform: rotate(180deg);
+}
+
+thead th.active,tbody td.active {
+    color: #6c00bd;
+}
+
+.export__file {
+    position: relative;
+}
+
+.export__file .export__file-btn {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background: #fff6 url(images/export.png) center / 80% no-repeat;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+}
+
+.export__file .export__file-btn:hover { 
+    background-color: #fff;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.export__file input {
+    display: none;
+}
+
+.export__file .export__file-options {
+    position: absolute;
+    right: 0;
+    
+    width: 12rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    text-align: center;
+
+    opacity: 0;
+    transform: scale(.8);
+    transform-origin: top right;
+    
+    box-shadow: 0 .2rem .5rem #0004;
+    
+    transition: .2s;
+}
+
+.export__file input:checked + .export__file-options {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 100;
+}
+
+.export__file .export__file-options label{
+    display: block;
+    width: 100%;
+    padding: .6rem 0;
+    background-color: #f2f2f2;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    transition: .2s ease-in-out;
+}
+
+.export__file .export__file-options label:first-of-type{
+    padding: 1rem 0;
+    background-color: #86e49d !important;
+}
+
+.export__file .export__file-options label:hover{
+    transform: scale(1.05);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.export__file .export__file-options img{
+    width: 2rem;
+    height: auto;
+}
+
+
+
+
+
+
+/* Ajoutez ces règles à la fin de votre fichier CSS */
+
+/* Pour les écrans de taille moyenne et plus petits */
+@media screen and (max-width: 1000px) {
+    /* Redimensionnez les éléments pour s'adapter aux écrans plus petits */
+    main.table {
+        width: 95vw;
+    }
+
+    .gallery figure {
+        width: calc(50% - 20px);
+        margin-right: 10px;
+    }
+}
+
+/* Pour les écrans encore plus petits */
+@media screen and (max-width: 768px) {
+    /* Redimensionnez les éléments pour s'adapter aux écrans plus petits */
+    main.table {
+        width: 90vw;
+    }
+
+    .gallery figure {
+        width: calc(100% - 20px);
+        margin-right: 0;
+    }
+}
+
+/* Pour les écrans très petits, comme les téléphones mobiles */
+@media screen and (max-width: 480px) {
+    /* Redimensionnez les éléments pour s'adapter aux écrans très petits */
+   
+
+    .gallery figure {
+        width: calc(100% - 20px);
+        margin-right:0;
+    }
+}
+/* Pour les écrans de taille moyenne et plus petits */
+@media screen and (max-width: 1000px) {
+    nav {
+        padding: 20px 50px; /* Ajustez l'espacement du menu de navigation pour les écrans plus petits */
+    }
+
+    nav ul {
+        font-size: 0.8em; /* Réduisez la taille de la police pour les éléments de la liste */
+    }
+}
+
+/* Pour les écrans très petits, comme les téléphones mobiles */
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 20px; /* Ajustez davantage l'espacement du menu de navigation pour les écrans très petits */
+    }
+
+    nav ul {
+        font-size: 0.7em; /* Réduisez encore plus la taille de la police pour les écrans très petits */
+    }
+}
+
+
+/* Pour les écrans de taille moyenne et plus petits */
+@media screen and (max-width: 1000px) {
+    main.table {
+        width: 90vw; /* Réduire la largeur du tableau pour les écrans plus petits */
+        max-height: 80vh; /* Ajuster la hauteur maximale du tableau pour les écrans plus petits */
+        padding: 20px; /* Ajuster le padding du tableau pour les écrans plus petits */
+    }
+
+    table {
+        font-size: 0.9em; /* Réduire la taille de la police pour les écrans plus petits */
+    }
+
+    tbody tr th,
+    tbody tr td {
+        padding: 0.5rem; /* Ajuster le padding des cellules du tableau pour les écrans plus petits */
+    }
+}
+/* Pour les écrans de taille moyenne et plus petits */
+@media screen and (max-width: 1000px) {
+    main.table {
+        width: 95%; /* Utilise 95% de la largeur de l'écran */
+        max-height: 70vh; /* Limite la hauteur du tableau pour éviter le débordement */
+        overflow-x: auto; /* Ajoute une barre de défilement horizontale si nécessaire */
+    }
+
+    table {
+        font-size: 0.9em; /* Réduit la taille de la police pour économiser de l'espace */
+    }
+
+    tbody tr th,
+    tbody tr td {
+        padding: 0.5rem; /* Réduit le padding des cellules pour économiser de l'espace */
+    }
+}
+
+/* Pour les écrans très petits, comme les téléphones mobiles */
+@media screen and (max-width: 480px) {
+    main.table {
+        width: 100%; /* Utilise toute la largeur de l'écran */
+        max-height: 100%; /* Utilise toute la hauteur de l'écran */
+        overflow-x: auto; /* Ajoute une barre de défilement horizontale si nécessaire */
+    }
+
+    table {
+        font-size: 0.8em; /* Réduit encore plus la taille de la police pour économiser de l'espace */
+    }
+
+    tbody tr th,
+    tbody tr td {
+        padding: 0.4rem; /* Réduit davantage le padding des cellules pour économiser de l'espace */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.tableit {
+        background-size: auto; /* Laisse l'image à sa taille d'origine sur les écrans plus petits */
+        background-position: center; /* Centre l'image sur les écrans plus petits */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.home {
+        background-size: auto; /* Laisse l'image à sa taille d'origine sur les écrans plus petits */
+        background-position: center; /* Centre l'image sur les écrans plus petits */
+    }
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0; /* Place le menu à l'extrémité droite */
+    width: auto; /* Ajustez la largeur selon le contenu */
+    padding: 20px 100px;
+    display: flex;
+    justify-content: flex-end; /* Aligne le contenu à droite */
+    align-items: center;
+    z-index: 99;
+}
+
+nav ul {
+    display: flex;
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le rembourrage par défaut */
+}
+
+nav ul li {
+    margin: 0 10px;
+    list-style: none; /* Supprime les puces de la liste */
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+nav ul li a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lgin {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: black;
+}
+.lgin.box:hover {
+    box-shadow:0 0  60px #ff0000;
+
+
+ }
+
+.lgin.box{
+    position: relative;
+    width:380px;
+    height:420px;
+    background:fixed;
+    border-radius:8px;
+    overflow: hidden;
+
+
+}
+.lgin.box::before 
+{
+
+   content:'';
+   position:absolute;
+   top:-50%;
+   left:-50%;
+   width:380px;
+   height:420px;
+   background: linear-gradient(0deg,transparent,
+   transparent,#45f3ff,#45f3ff,#45f3ff);
+   z-index:1;
+   transform-origin:bottom right;
+   animation: animate 5s linear infinite;
+  
+}
+
+.lgin.box::after
+
+{
+
+   content:'';
+   position:absolute;
+   top:-50%;
+   left:-50%;
+   width:380px;
+   height:420px;
+   background: linear-gradient(0deg,transparent,
+   transparent,#45f3ff,#45f3ff,#45f3ff);
+   z-index:1;
+   transform-origin:bottom right;
+   animation: animate 5s linear infinite;
+   animation-delay:-3s;
+   
+
+}
+
+.lgin.borderLine{
+
+position:absolute;
+top:0;
+inset:0;
+}
+
+.lgin.borderLine::before{
+
+   content:'';
+   position:absolute;
+   top:-50%;
+   left:-50%;
+   width:380px;
+   height:420px;
+   background: linear-gradient(0deg,transparent,
+   transparent,darkred,darkred,darkred);
+   z-index:1;
+   transform-origin:bottom right;
+   animation: animate 5s linear infinite;
+   animation-delay:-1.5s;
+}
+.lgin .borderLine::after{
+
+    content:'';
+    position:absolute;
+    top:-50%;
+    left:-50%;
+    width:380px;
+    height:420px;
+    background: linear-gradient(0deg,transparent,
+    transparent,darkred,darkred,darkred);
+    z-index:1;
+    transform-origin:bottom right;
+    animation: animate 5s linear infinite;
+    animation-delay:-4.5s;
+}
+
+ @keyframes animate{
+ 0%
+  
+ {transform:rotate(0deg);
+
+ }
+ 100%
+
+ {transform:rotate(360deg);
+
+
+ } 
+}
+
+
+.lgin.box form {
+
+position:absolute;
+inset:4px;
+background:#222;
+padding:50px 40px;
+border-radius:8px;
+z-index:2;
+display:flex;
+flex-direction:column;
+
+}
+
+.lgin.box form h2 {
+    color:wheat;
+    font-weight: 500;
+    text-align:center;
+    letter-spacing: 0.1em;
+}
+
+
+.lgin.box form.inputBox {
+
+    position: relative;
+    width:300px;
+    margin-top:35px;
+
+}
+
+
+.lgin.box form.inputBox input {
+    position: relative;
+    width:100%;
+    padding:20px  10px 10px;
+    background:transparent;
+    outline:none;
+    border:none;
+    box-shadow:none;
+    color:black;
+    font-size:1em;
+    letter-spacing:0.05em;
+    transition:0.5s;
+    z-index:10;
+}
+
+.lgin.box form.inputBox span {
+    position:absolute;
+    left:0;
+    padding:20px 0px 10px;
+    pointer-events:none;
+    color:#8f8f8f;
+    font-size:1em;
+    letter-spacing:0.05em;
+    transition:0.5s;
+
+
+
+}
+.lgin label{
+    color:white;
+}
+
+
+.lgin.box form.inputBox input :valid~span
+.lgin.box form.inputBox input :focus~span {
+    color:#fff;
+    font: size 0.75em;
+    transform:translateY(-34px);
+
+}
+
+.lgin.box form .inputBox i
+{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:2px;
+    background:#fff;
+    border-radius:4px;
+    overflow:hidden;
+    transition:0.5s;
+    pointer-events:none;
+
+}
+
+.lgin.box form.inputBox input :valid~i
+.lgin.box form.inputBox input :focus~i {
+
+
+    height:44px
+}
+
+.lgin.box form .links{
+
+display:flex;
+justify-content:space-between
+
+}
+
+.lgin.box form .links a {
+
+margin:10px 0;
+font-size:0.75em;
+color:#8f8f8f;
+text-decoration:none;
+
+}
+
+.lgin.box form .links a:hover,
+.lgin.box form .links a:nth-child(2)
+{
+color:#fff
+}
+
+.lgin.box form input[type="submit"] {
+
+border:none;
+outline:none;
+padding:9px 25px;
+background:rgba(255, 0, 0, 0.545);
+cursor:pointer;
+font-size: 0.9em;
+border: radius 4px;
+font-weight:600;
+width:100px;
+margin-top:10px;
+
+}
+
+.lgin.box form input[type="submit"]:active {
+
+    opacity:0.8;
+   
+
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+h1 {
+    color:rgba(255, 0, 0, 0.69)
+}
+
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+p.center {
+    border-radius:40px;
+    border:3px solid rgba(255, 127, 185, 0.973);
+    padding:20px;
+    width:400px;
+    height: 500px;}
+
+
+
+body {
+    background-color: rgba(0, 208, 255, 0.272); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, white , rgba(0, 208, 255, 0.272));
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.rkQHGbhm7u6pAtLcP8dcWgHaHK&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    color:rgba(139, 0, 0, 0.342)
+
+} 

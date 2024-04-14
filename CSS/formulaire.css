@@ -1,0 +1,186 @@
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.formulaire {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+*/
+
+/* Reset des marges et des paddings */
+
+
+/*.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20%;
+}
+
+.introduction {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 50%;
+}*/
+
+ /*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+
+
+body.forming{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-y: auto;
+  
+    background: url("bg.png"), -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+
+  }
+
+  forming.h2 {
+    text-align: center;
+  }
+.formulaire {
+    max-width: 50%;
+    background: #fff;
+    text-align: center;
+    border-radius:5px;
+    padding: 30 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+body {
+    padding-top: 20%;
+}
+
+
+/*.container {
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px 35px; 
+  */
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="color"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+input[type="file"],
+input[type="range"],
+input[type="checkbox"],
+input[type="radio"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #00b380;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button[type="submit"]:hover {
+    background-color:rgba(255, 0, 0, 0.764);
+}
+
+
+@media screen and (max-width: 768px) {
+    .formulaire {
+        padding: 10px;
+    }
+}
+
+
+
+

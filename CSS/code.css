@@ -1,0 +1,188 @@
+/* Réinitialisation des styles */
+ *{
+    padding: 0;
+    margin: 0;*
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Styles généraux pour le corps de la page */
+body {
+    min-height: 100vh;
+    background:url('https://w.forfun.com/fetch/27/27d9134d15b8e43d08c984bca65551f6.jpeg') center center no-repeat;
+    background-position:cover;
+    background-size: cover;
+    font-family: montserrat;
+}
+
+/* Styles pour l'en-tête */
+/*header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    font-size: 1.5em;
+    color: grey;
+    user-select: none;
+}
+
+/* Styles pour la navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+/* Styles pour le titre */
+header h1 {
+    margin: 0; /* Supprimer la marge par défaut */
+}
+
+/* Styles pour les liens de navigation */
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffff;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+nav ul li a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* Styles pour la section héros */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    padding-left: 70px; /* Ajustez la valeur de la marge gauche */
+}
+
+/* Styles pour le titre dans la section héros */
+.hero-section h2 {
+    font-size: 2rem;
+    max-width: 600px;
+    line-height: 70px;
+}
+
+/* Styles pour le paragraphe dans la section héros */
+.hero-section p {
+    font-weight: 300;
+    max-width: 600px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+header h1  {
+    padding-left: 120px;
+   
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-decoration: none;
+}
+  header h1 span {
+    color: #c03e69;
+  }
+  
+  .checkbtn {
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height:80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display:none;
+ }
+
+ 
+
+   /* #check {
+        display:none
+     }
+    
+     @media(max-width:925px){
+        header h1{
+            font-size:30px;
+            padding-left:50px;
+    
+        }
+        nav ul li a {
+            font-size:16px;
+     }
+    }
+    
+    @media(max-width:858px) {
+        .checkbtn {
+            display:block;
+        }
+    
+        ul {
+            position:fixed;
+            width:100%;
+            height:100vh;
+            background:url('https://images3.alphacoders.com/607/607827.jpg') center center no-repeat;
+            background-position: cover;
+            background-size: cover;
+            top:80px;            
+            left: -100%;
+            text-align:center;
+            background-attachment: fixed;
+            transition: all .5s;
+          
+    
+        }
+        nav ul li  {
+            display:block;
+            margin:50px 0;
+            line-height:30px;
+        }
+        nav ul li a {
+            font-size:20px;
+        }
+       
+        #check:checked~ul {
+            left:0;
+    
+        }}*/
